@@ -1,79 +1,120 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Personal%20Portfolio%20%F0%9F%8C%90&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Built%20with%20HTML%20%7C%20CSS%20%7C%20JavaScript%20%E2%80%94%20by%20Samir%20Sheikh&descSize=16&descAlignY=62"/>
+# Samir Sheikh — Frontend Developer Portfolio
 
-<a href="https://samir-frontend.github.io/Personal-Portfolio/">
-  <img src="https://img.shields.io/badge/🌐 Live Demo-Visit Now-6E57F7?style=for-the-badge"/>
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"/>
+A modern, responsive portfolio website showcasing my frontend skills, selected projects, and development journey.
+
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-Visit%20Website-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://samir-portfolio-mu.vercel.app/)[![GitHub](https://img.shields.io/badge/GitHub-Samir--frontend-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samir-frontend)[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samir-sheikh-frontend)
 
 </div>
 
 ---
 
-## 📌 About This Project
+## About the Project
 
-> My **personal portfolio website** — showcasing my skills, projects, and experience as a Front-End Developer. Built entirely with **HTML, CSS & JavaScript** — no frameworks, no libraries!
+This repository contains my personal portfolio website as a **Frontend Developer and B.Tech CSE student**. It presents my technical skills, project work, development experience, resume, and contact information in a clean, responsive interface.
 
-- 🎨 Modern & clean UI design
-- 📱 Fully **responsive** on all devices
-- ⚡ Smooth **animations & transitions**
-- 🌙 Sections: Home, About, Skills, Resume, Projects, Contact
+The portfolio focuses on practical frontend development, polished user interfaces, responsive layouts, smooth interactions, and real-world web projects.
 
----
+## Features
 
-## 🛠️ Built With
+- Fully responsive design for desktop, tablet, and mobile devices.
+
+- Home, About, Services, Skills, Portfolio, Resume, and Contact sections.
+
+- Project cards with technology tags and live project links.
+
+- Smooth animations, transitions, and interactive UI elements.
+
+- Downloadable resume and clear calls to action.
+
+- Contact form with direct email, GitHub, and LinkedIn links.
+
+- Mobile-first layout with a clean recruiter-friendly presentation.
+
+## Technologies and Tools
 
 | Technology | Purpose |
-|---|---|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Structure & Layout |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Styling & Animations |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Interactivity & Logic |
+| --- | --- |
+| HTML5 | Semantic structure and content organization |
+| CSS3 | Styling, responsive layouts, and animations |
+| JavaScript | Interactivity, logic, and DOM manipulation |
+| React.js | Component-based interface development |
+| Vite | Fast development and production build workflow |
+| Tailwind CSS | Utility-first responsive styling |
+| Framer Motion | UI motion and animation effects |
+| GSAP | Advanced web animations |
+| Git & GitHub | Version control and project hosting |
+| PWA | Installable, app-like web experiences |
 
----
+## Featured Projects
 
-## 📂 Sections
+| Project | Description | Technologies |
+| --- | --- | --- |
+| [The Royal Grand Hotel Booking System](https://samir-frontend.github.io/The-Royal-Grand-Hotel-Booking-System/) | Luxury hotel booking interface with a polished hospitality-focused design. | HTML, CSS, JavaScript |
+| [IndianRail.gov Railway Reservation System](https://samir-frontend.github.io/IndianRail.gov-Railway-Reservation-System/) | Railway reservation interface with structured forms and practical user flows. | HTML, CSS, JavaScript |
+| [ONYX Clothing Shop](https://samir-frontend.github.io/ONYX--Shopping-Website/) | Fashion e-commerce website created for the ONYX clothing brand. | HTML, CSS, JavaScript |
+| [Strip Juice](https://strip-juice.netlify.app/) | Animated hydration drink website with a modern product-focused interface. | React, Tailwind CSS, Framer Motion |
+| College ERP System | Academic management interface for college-related workflows and information. | React, Vite, JavaScript |
+| TaskFlow-PWA | Task-management application with an installable Progressive Web App experience. | React, Vite, PWA |
+| ShoppingCart-APP | Responsive shopping cart application focused on product and cart interactions. | React, JavaScript, CSS |
+| LandingPro | Collection of polished landing-page concepts with strong visual hierarchy. | HTML, CSS, JavaScript |
+
+## Project Structure
 
 ```
-Personal-Portfolio/
-├── 🏠  Home        — Hero section with intro & CTA
-├── 👤  About       — Who I am & my background
-├── ⚙️  Skills      — Technical & Professional skills
-├── 📄  Resume      — Education & Internship experience
-├── 💼  Projects    — All my projects with live links
-└── ✉️  Contact     — Get in touch form & details
+Portfolio/
+├── Home        — Introduction and primary calls to action
+├── About       — Background and development approach
+├── Services    — Frontend and problem-solving capabilities
+├── Skills      — Technologies and tools
+├── Portfolio   — Selected projects with live links
+├── Resume      — Education, experience, and downloadable CV
+└── Contact     — Contact form and professional links
 ```
 
----
+## Getting Started
 
-## 🚀 Live Demo
+Clone the repository and open the project directory:
 
-**👉 [samir-frontend.github.io/Personal-Portfolio](https://samir-frontend.github.io/Personal-Portfolio/)**
+```bash
+git clone https://github.com/Samir-frontend/Personal-Portfolio.git
+cd Personal-Portfolio
+```
 
----
+For a static HTML, CSS, and JavaScript version, open `index.html` in a browser or run a local server:
 
-## 👨‍💻 Developer
+```bash
+python3 -m http.server 5500
+```
+
+For a Vite-based version, install dependencies and start the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+## Contact
+
+I am open to frontend development internships, entry-level opportunities, freelance work, and collaborative projects.
+
+- **Portfolio:** [samir-portfolio-mu.vercel.app](https://samir-portfolio-mu.vercel.app/)
+
+- **GitHub:** [github.com/Samir-frontend](https://github.com/Samir-frontend)
+
+- **LinkedIn:** [linkedin.com/in/samir-sheikh-frontend](https://www.linkedin.com/in/samir-sheikh-frontend)
+
+- **Email:** [samirshiekh0808@gmail.com](mailto:samirshiekh0808@gmail.com)
+
+- **Location:** Rawatbhata, Rajasthan, India
+
+## License
+
+This repository is maintained as a personal portfolio. Please do not copy its content, design, branding, or assets without permission.
 
 <div align="center">
 
-**Samir Sheikh** — Front-End Developer
-📍 Rawatbhata, Rajasthan &nbsp;|&nbsp; 📧 samirshiekh0808@gmail.com
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://samir-frontend.github.io/Personal-Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samir-sheikh-frontend)
-[![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samir-frontend)
-
-</div>
-
----
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
-
-*⭐ You LIke Then Give Me One Star!*
+Built with HTML, CSS, JavaScript, React, and a continuous focus on learning.
 
 </div>
